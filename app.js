@@ -9,7 +9,7 @@ app.listen(process.env.PORT, process.env.IP, function(){
 });
 
 //routes
-app.get("/home", function(req, res){
+app.get("/", function(req, res){
 	res.render("index.html");
 });
 
